@@ -8,7 +8,7 @@ const centerStyle = {
 	flexDirection: 'column',
 	justifyContent: 'center',
 	alignItems: 'center',
-	margin: '0 auto',
+	margin: '0px auto',
 	height: '100%'
 }
 
@@ -161,9 +161,11 @@ class Battle extends React.Component {
 		return(
 			<div style={{height:'90vh'}}>
 				<div style={centerStyle}>
-					<Loading message={"Calculating Score..."} isLoading={this.state.loading} />
-					<h1> {this.state.winner} Wins! </h1>
-					<h1>{this.state.playerOneScore} Points VS. {this.state.playerTwoScore} Points</h1>
+					<Loading message={'Calculating Score...'} isLoading={this.state.loading} />
+					<p style={{fontSize:'50px', margin:'30px', textAlign:'center', textDecoration:'underline'}}> {this.state.winner} Wins! </p>
+					<h3 style={{textAlign:'center'}}> {this.props.params.playerone}: {this.state.playerOneScore} Points</h3> 
+					<h3>VS.</h3> 
+					<h3>{this.props.params.playertwo}: {this.state.playerTwoScore} Points</h3>
 					<button style={{margin:'50px'}} className='btn btn-success' onClick={this.handleButton.bind(this)}>Try Again</button>
 				</div>
 			</div>

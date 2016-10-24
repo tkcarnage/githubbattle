@@ -7,7 +7,7 @@ const centerStyle = {
 	flexDirection: 'column',
 	justifyContent: 'center',
 	alignItems: 'center',
-	margin: '0 auto',
+	margin: '0px auto',
 	height: '90vh'
 }
 

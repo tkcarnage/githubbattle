@@ -6,8 +6,8 @@ class Header extends React.Component {
 		return(
 			<nav>
 				<ul className='nav nav-tabs nav-justified'>
-					<li><IndexLink to='/' activeStyle={{backgroundColor:'#ecf0f1'}}>Home</IndexLink></li>
-					<li><Link to='/players' activeStyle={{backgroundColor:'#ecf0f1'}}>Battle!</Link></li>
+					<li style={{backgroundColor:'white'}}><IndexLink to='/' activeStyle={{backgroundColor:'#ecf0f1'}}>Home</IndexLink></li>
+					<li style={{backgroundColor:'white'}}><Link to='/players' activeStyle={{backgroundColor:'#ecf0f1'}}>Battle!</Link></li>
 				</ul>
 			</nav>
 		);
