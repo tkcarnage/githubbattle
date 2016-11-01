@@ -1,1 +1,1 @@
-DEPLOYED OVER AT: WWW.TKCARNAGE.GITHUB.IO
+DEPLOYED OVER AT: http://tkcarnage.github.io/
