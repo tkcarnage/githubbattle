@@ -2,6 +2,8 @@
 
 ## Live version: [Here](http://tkcarnage.github.io/)
 
+![GitHub Battle](https://github.com/tkcarnage/githubbattle/blob/master/images/githubbattle.png)
+
 ## Description:
 Pit two GitHub accounts against each other. Points are based on the accounts repo's stats.
 
